@@ -7,6 +7,8 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.header`
+  padding: 20px;
+
   & > nav {
     margin: 20px 0;
 
@@ -68,7 +70,25 @@ export const Profile = styled.div`
 
       & > a {
         margin-right: 10px;
+        color: lightgrey;
       }
     }
+  }
+`;
+
+export const Project = styled.div`
+  & ul {
+    font-size: 16px;
+    padding-left: 10px;
+
+    & li {
+      padding-bottom: 15px;
+    }
+  }
+
+  & p {
+    padding-bottom: 15px;
+    font-size: 16px;
+    padding-left: 10px;
   }
 `;

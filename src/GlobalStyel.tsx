@@ -50,7 +50,7 @@ table {
 	border-spacing: 0;
 }
 a {
-	color: lightgrey;
+	color: coral;
 }
 `;
 
