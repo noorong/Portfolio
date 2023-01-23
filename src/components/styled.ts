@@ -4,13 +4,21 @@ export const Container = styled.div`
   width: 100%;
   max-width: 900px;
   margin: auto;
+
+  overflow: hidden;
 `;
 
 export const Header = styled.header`
-  padding: 20px;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
 
   & > nav {
-    margin: 20px 0;
+    width: 80%;
+    margin: 20px auto;
 
     & > ul {
       display: flex;
@@ -22,7 +30,7 @@ export const Header = styled.header`
 
 export const Section = styled.section`
   width: 100%;
-  padding: 30px;
+  padding: 150px 30px 30px 30px;
 
   & > article:first-child {
     display: flex;
@@ -44,7 +52,51 @@ export const Article = styled.article`
 
   & h2 {
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    font-weight: bold;
+
+    border-left: 5px solid black;
+  }
+
+  & h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    padding-left: 5px;
+  }
+
+  & h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  & p {
+    padding-bottom: 15px;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  & ul {
+    font-size: 16px;
+    padding-left: 10px;
+
+    & li:first-child {
+      padding: 15px 0;
+    }
+
+    & li {
+      padding: 0 0 8px 8px;
+    }
+  }
+
+  & ol {
+    font-size: 16px;
+
+    & li {
+      padding-left: 15px;
+      margin-bottom: 10px;
+    }
   }
 `;
 
@@ -73,22 +125,5 @@ export const Profile = styled.div`
         color: lightgrey;
       }
     }
-  }
-`;
-
-export const Project = styled.div`
-  & ul {
-    font-size: 16px;
-    padding-left: 10px;
-
-    & li {
-      padding-bottom: 15px;
-    }
-  }
-
-  & p {
-    padding-bottom: 15px;
-    font-size: 16px;
-    padding-left: 10px;
   }
 `;
