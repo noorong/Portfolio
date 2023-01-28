@@ -48,9 +48,7 @@ export const Home = () => {
             <li>
               <h4>
                 익명의 창찬 플랫폼.{' '}
-                <a href="http://kdt-sw3-team09.elicecoding.com">
-                  WeChing(위칭)
-                </a>
+                <a href="https://github.com/we-ching">WeChing(위칭)</a>
               </h4>
             </li>
             <p>프로젝트 기간 : 2022.12.12 ~ 2022.12.30. (3주)</p>
@@ -84,7 +82,9 @@ export const Home = () => {
             <li>
               <h4>
                 셀럽의 픽! Ce1ev
-                <a> WeChing(위칭)</a>
+                <a href="https://github.com/noorong/Elice_Project1_ce1ev">
+                  WeChing(위칭)
+                </a>
               </h4>
             </li>
             <p>프로젝트 기간 : 2022.10.31 ~ 2022.11.11. (2주)</p>
